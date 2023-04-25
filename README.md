@@ -12,3 +12,6 @@ This widget can be found in widget/DiscountWidget.js
 - Has the discounts at every range in another array (discountArr)
 - Has the minimum value to apply discount in variable minAmount
 - Returns the output as an array of the final amount and the discount.
+
+# Deploy Link
+- https://perch-assignment-abhirup.netlify.app
