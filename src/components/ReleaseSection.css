@@ -1,0 +1,21 @@
+.releasePage{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #454546;
+}
+
+.release-heading{
+    font-family: myFontLight;
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.release-heading p:nth-child(1){
+    font-family: myFont;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,65 @@
+.firstLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: myFontLight;
+    gap: 4px;
+}
+
+.noChange{
+    margin-top: 1rem;
+    font-family: myFontLight;
+    font-size: 1.4rem;
+}
+
+.line-through{
+    text-decoration-line: line-through;
+    text-decoration-thickness: 3px;
+    font-size: 1.4rem;
+}
+
+.discount{
+    font-family: myFont;
+    font-size: 1.2rem;
+    color: rgb(247, 46, 46);
+}
+
+.finalAmount{
+    margin-top: 1rem;
+    font-family: myFontLight;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 530px) {
+    .line-through{
+        font-size: 1.3rem;
+    }
+    
+    .discount{
+        font-family: myFont;
+        font-size: 1.1rem;
+        color: rgb(247, 46, 46);
+    }
+    
+    .finalAmount{
+        margin-top: 1rem;
+        font-family: myFontLight;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 530px) {
+    .line-through{
+        font-size: 1.2rem;
+    }
+    
+    .discount{
+        font-size: 1rem;
+    }
+    
+    .finalAmount{
+        font-size: 1.2rem;
+    }
+    
+}
